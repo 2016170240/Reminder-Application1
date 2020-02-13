@@ -1,0 +1,15 @@
+1- import and export or export default
+2- nested component and arrow function
+3- Events
+4- change state using setState().
+5- state full and state less.
+6- react list data using map.
+7-forms
+  -onChange
+  -onSubmit
+8-kol component ha3meloh bekon leh css file
+9-component life cycle => de 3obara 3n shewaet functions mawgoda f el react 
+    1- constructor ()
+    2- render ()
+    3- componentDidMount() => betetnafez lama el component ttlowed 
+    4- componentDidUpdate(prevstate,prevprops)

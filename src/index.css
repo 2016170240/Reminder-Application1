@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body
+{
+  background-color: #46529d;
+}
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container
+{
+
+  color: #fff;
+  width: 60%;
+  margin: 10% auto;
+}
+.text-center
+{
+  text-align: center;
+}
+.listitems
+{
+  margin-top: 20px;
+  background-color: #fff;
+  color: #46529d;
+}
+.listitems p{
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+.listitems span.f
+{
+  background-color:#22B0F3 ;
+  color: #fff;
+  
+}
+.listitems span.f,.s.name,.s.age,.s.action
+{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border:0.3px solid #ccc
+}
+.name,.s.name{
+  width: 60%;
+}
+.age,.s.age
+{
+  width: 20%;
+}
+.action,.s.action
+{
+  width: 20%;
+}
+form input
+{
+  outline: 0;
+  border: 0.3px solid #ccc;
+  padding: 10px ;
+  background-color: #ddd;
+}
+form input:nth-of-type(1)
+{
+  width: 60%;
+}
+form input:nth-last-of-type(2)
+{
+  width: 20%;
+}
+form input:nth-of-type(3)
+{
+  width: 20%;
+  background-color: #22B0F3;
+  color: #fff;
+
+}
+.s.action
+{
+  cursor: pointer;
+  transition: all 0.8s;
+}
+.s.action:hover
+{
+  background-color: tomato;;
+  color: #fff;
+}
