@@ -1,102 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-color: #8D1C11;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.x{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-body
-{
-  background-color: #46529d;
-}
-*
-{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-.container
-{
-
-  color: #fff;
-  width: 60%;
-  margin: 10% auto;
-}
-.text-center
-{
-  text-align: center;
-}
-.listitems
-{
-  margin-top: 20px;
-  background-color: #fff;
-  color: #46529d;
-}
-.listitems p{
-  text-align: center;
-  margin: 0;
-  padding: 10px 0;
-}
-.listitems span.f
-{
-  background-color:#22B0F3 ;
-  color: #fff;
-  
-}
-.listitems span.f,.s.name,.s.age,.s.action
-{
-  display: inline-block;
-  text-align: center;
-  padding: 10px 0;
-  font-size: 20px;
-  border:0.3px solid #ccc
-}
-.name,.s.name{
-  width: 60%;
-}
-.age,.s.age
-{
-  width: 20%;
-}
-.action,.s.action
-{
-  width: 20%;
-}
-form input
-{
-  outline: 0;
-  border: 0.3px solid #ccc;
-  padding: 10px ;
-  background-color: #ddd;
-}
-form input:nth-of-type(1)
-{
-  width: 60%;
-}
-form input:nth-last-of-type(2)
-{
-  width: 20%;
-}
-form input:nth-of-type(3)
-{
-  width: 20%;
-  background-color: #22B0F3;
-  color: #fff;
+.inner{
+    margin-top: 10px;
+    background-color:#14346A ;
+    padding: 20px;
+    width: 50%;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
 
 }
-.s.action
-{
-  cursor: pointer;
-  transition: all 0.8s;
+.inner h2{
+    color: #fff;
+    text-align: center;
+    border-bottom: 5px solid #fff;
+    margin-bottom:20px ;
 }
-.s.action:hover
+.inner input{
+    margin: 15px 0;
+} 
+.react-datepicker-wrapper{
+    display: block!important;
+}
+.inner button{
+    margin: 15px 0;
+}
+li{
+    color: #000;
+    border: 1px solid #333;
+    background-color: #fff;
+    width: 90%;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.innerinner1 span{
+    font-weight: bold;
+}
+.b{
+    border-radius: 50%!important;
+}
+li .innerinner1{
+    width: 90%;
+}
+@media(max-width:1000px)and (min-width:0)
 {
-  background-color: tomato;;
-  color: #fff;
+    .inner{
+        width: 100%;
+        margin-top: 50px;
+    }
 }
